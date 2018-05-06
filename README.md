@@ -1,4 +1,4 @@
-#IPA TTS
+# IPA TTS
 
 This project is to take an ipa string as input, and output the audio. 
 Could be useful for phonetic/phonology research, conlang sound testing etc.
