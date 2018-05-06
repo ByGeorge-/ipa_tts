@@ -45,7 +45,7 @@ for span in spans:
 with open('arpa_con.txt', 'r') as f:
 	arpa = [line.replace('\n','') for line in f]
 
-arpa = [[boy for boy in line.split()]for line in arpa]
+arpa = [[arp for arp in line.split()]for line in arpa]
 
 arpa_dict = {k[2]:k[0] for k in arpa}
 
