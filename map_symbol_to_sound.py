@@ -15,7 +15,7 @@ For easier mapping to convert this fri_01 to its relevant IPA directly
 from bs4 import BeautifulSoup
 import re
 
-filepath = "/Users/YuanyuanTian/Documents/cool_python/ipa_tts/norwegian_lingusitcs_ipa_data/ipachart_no_cons.html"
+filepath = ""
 soup = BeautifulSoup(open(filepath, encoding = "ISO-8859-1"), "html.parser")# opens local file
 
 spans = list(soup.find_all("span"))
