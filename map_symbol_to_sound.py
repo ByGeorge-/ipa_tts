@@ -15,7 +15,7 @@ For easier mapping to convert this fri_01 to its relevant IPA directly
 from bs4 import BeautifulSoup
 import re
 
-filepath = "/Users/YuanyuanTian/Documents/cool_python/ipa_tts/norwegian_lingusitcs_ipa_data/ipachart_no_cons.html"
+filepath = ""
 soup = BeautifulSoup(open(filepath, encoding = "ISO-8859-1"), "html.parser")# opens local file
 
 spans = list(soup.find_all("span"))
@@ -45,7 +45,7 @@ for span in spans:
 with open('arpa_con.txt', 'r') as f:
 	arpa = [line.replace('\n','') for line in f]
 
-arpa = [[boy for boy in line.split()]for line in arpa]
+arpa = [[arp for arp in line.split()]for line in arpa]
 
 arpa_dict = {k[2]:k[0] for k in arpa}
 

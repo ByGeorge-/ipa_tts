@@ -1,3 +1,0 @@
-<span class="soundEx" id="IPAno_spec_107" onclick="playSound2('snd/IPAno_spec_107')" onmouseout="unhighlight(this);" onmouseover="highlight(this);"><a href="javascript:playSound('snd/IPAno_spec_107')" onmouseout="contextMenuOut();" onmouseover="showContextMenu(msgno_spec_107, event);">
-<img align="BOTTOM" border="0" height="25" src="img/C_107p433p138.gif" width="25"/></a></span><span class="soundEx" id="IPAno_spec_108" onclick="playSound2('snd/IPAno_spec_108')" onmouseout="unhighlight(this);" onmouseover="highlight(this);"><a href="javascript:playSound('snd/IPAno_spec_108')" onmouseout="contextMenuOut();" onmouseover="showContextMenu(msgno_spec_108, event);">
-<img align="BOTTOM" border="0" height="25" src="img/C_108p433p139.gif" width="25"/></a></span>
